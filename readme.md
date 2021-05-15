@@ -22,7 +22,7 @@
 
  * Para subir a aplicação laravel será necessário rodar o comando em seu terminal.
   
-  composer create-project --prefer-dist laravel/laravel "Nome do projeto" 5.8.*
+ * composer create-project --prefer-dist laravel/laravel "Nome do projeto" 5.8.*
 
 
 ## Servidor para testes
