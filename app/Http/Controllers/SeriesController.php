@@ -35,7 +35,7 @@ class SeriesController extends Controller
             $request->session()
             ->flash(
                 'mensagem',
-                "Série {$serie->id} e duas temporadas e episódios criados com sucesso {$serie->nome}"
+                "Série {$serie->nome} Temporadas e Episódios criados com sucesso !"
             );
     
         return redirect()->route('listar_series');
