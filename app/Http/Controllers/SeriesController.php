@@ -9,6 +9,7 @@ use App\Http\Requests\SeriesFormRequest;
 use App\Temporada;
 use App\Episodio;
 use App\Services\RemoverSerie;
+use Illuminate\Support\Facades\Auth;
 
 class SeriesController extends Controller
 {
