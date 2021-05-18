@@ -83,6 +83,6 @@ function editarSerie(serieId) {
     });
 }
 
-</script> 
+</script>
 
 @endsection
