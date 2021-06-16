@@ -9,8 +9,11 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
+route::get('/', function () {
+    throw new \Exception();
+});
 
 Route::get('/series', 'SeriesController@index')->name('listar_series');
 Route::get('/series/criar', 'SeriesController@create')->name('form_criar_serie')->middleware('autenticador');
@@ -29,7 +32,6 @@ Route::get('/sair', function () {
     \Illuminate\Support\Facades\Auth::logout();
     return redirect('/entrar');
 });
-
 
 Auth::routes();
 
