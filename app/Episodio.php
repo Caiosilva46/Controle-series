@@ -8,8 +8,8 @@ class Episodio extends Model
 {
     public $timestamps = false;
     protected $fillable = ['numero'];
-    
-    public function temporada() 
+
+    public function temporada()
     {
         return $this->belongsTo(Temporada::class);
     }

@@ -7,7 +7,7 @@
 
  A estrutura do Lumen tem alguns requisitos de sistema para o seu funcionamento.
 
- * PHP >= 7.3
+ * PHP >= 7.4
  * OpenSSL PHP Extension
  * PDO PHP Extension
  * Mbstring PHP Extension
